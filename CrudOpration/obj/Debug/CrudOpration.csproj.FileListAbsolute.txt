@@ -1,0 +1,11 @@
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\bin\Debug\CrudOpration.exe.config
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\bin\Debug\CrudOpration.exe
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\bin\Debug\CrudOpration.pdb
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csproj.AssemblyReference.cache
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.Form1.resources
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.Properties.Resources.resources
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csproj.GenerateResource.cache
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csproj.CoreCompileInputs.cache
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.exe
+C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.pdb
