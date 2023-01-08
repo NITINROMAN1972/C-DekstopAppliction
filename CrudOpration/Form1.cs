@@ -16,7 +16,7 @@ namespace CrudOpration
 
         SqlConnection connection;
 
-        //private int tempID;
+        private int tempID;
         public Form1()
         {
             InitializeComponent();
@@ -40,6 +40,14 @@ namespace CrudOpration
 
         private void button2_Click(object sender, EventArgs e)
         {
+        
+            if (textBox1.Text=="" && textBox2.Text==""&& comboBox1.Text=="")
+            {
+                MessageBox.Show("FILL THE  ALL INFORAMATION " , "Error" ,MessageBoxButtons.OK,MessageBoxIcon.Error);
+
+                return;
+            }
+            else{
             SqlCommand cmd;
             connection.Open();
             string sqlQuery = "INSERT INTO Student (Name,Mobile,Gender) VALUES(@p1,@p2,@p3)";
@@ -56,10 +64,9 @@ namespace CrudOpration
 
             display();
 
-            MessageBox.Show("DATA ADD");
-
+            MessageBox.Show("DATA ADD", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
             clearFields();
-
+           } 
 
         }
 
@@ -87,12 +94,11 @@ namespace CrudOpration
 
                     clearFields();
 
-                    MessageBox.Show("DATA DELETE");
-
+                    MessageBox.Show("DATA DELETE", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
             }
-               
+               tempID=0;
                   connection.Close();
         }
 
@@ -101,7 +107,7 @@ namespace CrudOpration
             if (dataGridView1.Rows.Count > 0)
             {
 
-                //tempID = int.parse( dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+                tempID = int.parse( dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
                 textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
                 textBox2.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
                 comboBox1.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
@@ -110,14 +116,18 @@ namespace CrudOpration
 
         private void button3_Click(object sender, EventArgs e)
         {
+        
+           if(tempID<=0){
+                MessageBox.Show("SELECT THE RECORD  " , "Error" ,MessageBoxButtons.OK,MessageBoxIcon.Error);
+                   return;  
+            }      
+            else{
             SqlCommand cmd;
             connection.Open();
 
-          //  string sqlQuery = "UPDATE Student set Name=@p1,Mobile@p2,Gender=@p3  where id='"+tempID+"' ";
-         
-
-            string sqlQuery = "UPDATE Student set Name=@p1,Mobile@p2,Gender=@p3 ";
-
+           string sqlQuery = "UPDATE Student set Name=@p1,Mobile@p2,Gender=@p3  where id='"+tempID+"' ";
+       
+          
             cmd = new SqlCommand(sqlQuery, connection);
             cmd.Parameters.AddWithValue("@p1", textBox1.Text);
             cmd.Parameters.AddWithValue("@p2", textBox2.Text);
@@ -130,9 +140,11 @@ namespace CrudOpration
 
             display();
 
-            MessageBox.Show("DATA UPDATE");
+            MessageBox.Show("RECORD UPDATE ", "Succes", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             clearFields();
+             tempID=0;
+            }
         }
     }
 }
