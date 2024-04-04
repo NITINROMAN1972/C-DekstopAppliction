@@ -9,3 +9,13 @@ C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csp
 C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.csproj.CoreCompileInputs.cache
 C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.exe
 C:\Users\Nitin\source\repos\CrudOpration\CrudOpration\obj\Debug\CrudOpration.pdb
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.csprojAssemblyReference.cache
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.Form1.resources
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.Properties.Resources.resources
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.csproj.GenerateResource.cache
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.csproj.CoreCompileInputs.cache
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.exe
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\obj\Debug\CrudOpration.pdb
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\bin\Debug\CrudOpration.exe.config
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\bin\Debug\CrudOpration.exe
+C:\Users\Nitin\Downloads\C-DekstopAppliction\C-DekstopAppliction\CrudOpration\bin\Debug\CrudOpration.pdb

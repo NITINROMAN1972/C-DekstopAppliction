@@ -107,10 +107,10 @@ namespace CrudOpration
             if (dataGridView1.Rows.Count > 0)
             {
 
-                tempID = int.parse( dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
-                textBox1.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
-                textBox2.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
-                comboBox1.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+                tempID = int.Parse( dataGridView1.SelectedRows[0].Cells[0].Value.ToString());
+                textBox1.Text = dataGridView1.SelectedRows[0].Cells[1].Value.ToString();
+                textBox2.Text = dataGridView1.SelectedRows[0].Cells[2].Value.ToString();
+                comboBox1.Text = dataGridView1.SelectedRows[0].Cells[3].Value.ToString();
             }
         }
 
@@ -125,7 +125,7 @@ namespace CrudOpration
             SqlCommand cmd;
             connection.Open();
 
-           string sqlQuery = "UPDATE Student set Name=@p1,Mobile@p2,Gender=@p3  where id='"+tempID+"' ";
+           string sqlQuery = "UPDATE Student set Name=@p1,Mobile=@p2,Gender=@p3  where id='"+tempID+"' ";
        
           
             cmd = new SqlCommand(sqlQuery, connection);
